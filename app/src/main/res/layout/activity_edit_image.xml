@@ -7,17 +7,17 @@
     android:background="@android:color/black"
     tools:context=".EditImageActivity">
 
-    <!-- Область с изображением -->
     <ImageView
+        android:layout_gravity="center_vertical"
         android:id="@+id/imageView"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="100dp"
         android:adjustViewBounds="true"
         android:scaleType="fitCenter" />
 
-    <!-- Панель с кнопками редактирования -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -54,7 +54,6 @@
 
     </LinearLayout>
 
-    <!-- Вторая строка кнопок -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
